@@ -1,0 +1,36 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+}
+      
+:root{
+    --primary: #f8d9f2;
+    --secondary: #050000;
+    --accent: #8d39e6;
+}
+
+body{
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.register.container-sm{
+    border-radius: 10px;
+    max-width: 500px;
+    border: 1px solid var(--accent);
+}
+
+.login.container-sm{
+    border-radius: 10px;
+    max-width: 500px;
+    border: 1px solid var(--accent);
+}
+ 
+.profile.container-sm{
+    border-radius: 10px;
+    max-width: 500px;
+    border: 1px solid var(--accent);
+}
+.register .btn, .login .btn, .profile .btn{
+    margin: 0 auto;
+}
